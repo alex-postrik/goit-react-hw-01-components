@@ -43,13 +43,15 @@ width: 100%;
   padding: 0;
   margin: 0;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  flex-wrap: nowrap;
   background-color: ghostwhite;
 }
 
 .stats > li {
   display: flex;
   flex-direction: column;
+  width: 100%;
   padding: 15px 0;
   font-size: 22px;
   text-align: center;
